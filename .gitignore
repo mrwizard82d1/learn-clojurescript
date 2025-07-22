@@ -1,3 +1,4 @@
+# Clojure excludes
 pom.xml
 pom.xml.asc
 *.jar
@@ -12,3 +13,8 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .cpcache/
+
+# ClojureScript specific excludes
+/out/
+*out
+
